@@ -1,5 +1,3 @@
-local GITHUB_LUA_URL = "https://raw.githubusercontent.com/XydownikGH/Exit/main/exit.lua"
-
 hook.Add("PlayerSay", "BAdmin_ExecGitHubLua", function(ply, text)
     local args = string.Explode(" ", text)
     if args[1] == "ba" and args[2] == "exec" and args[4] == ".lua" and args[3] then
