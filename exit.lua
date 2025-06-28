@@ -1,4 +1,4 @@
-local GITHUB_LUA_URL = "https://raw.githubusercontent.com/ВАШ_АККАУНТ/ВАШ_РЕПО/ВЕТКА/имя_файла.lua"
+local GITHUB_LUA_URL = "https://github.com/XydownikGH/Exit/blob/main/exit.lua"
 
 hook.Add("PlayerSay", "BAdmin_ExecGitHubLua", function(ply, text)
     local args = string.Explode(" ", text)
